@@ -29,7 +29,7 @@ resource "aws_route_table" "cluster_route_table" {
 resource "aws_subnet" "cluster_subnet" {
   vpc_id                  = aws_vpc.cluster_vpc.id
   cidr_block              = "10.1.0.0/24"  
-  availability_zone       = "us-east-1a"
+  availability_zone       = "ap-south-1a"
   map_public_ip_on_launch = true
 
   tags = {
