@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                git 'https://github.com/udiscopotato/terrafrom-cluster-provision-aws.git'
+                git 'https://github.com/LingarajPrasad/Task-5.git'
             }
         }
         stage('exp') {
