@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket         = "k3s-cluster-provision"
     key            = "terraform/state.tfstate"
-    region         = "us-east-1"
+    region         = "ap-south-1"
     dynamodb_table = "terraform-table" 
     encrypt        = true 
   }
