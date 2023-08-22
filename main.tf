@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "k3s-task5"
+    bucket         = "k3s-task5-bucket"
     key            = "terraform/state.tfstate"
     region         = "ap-south-1"
     dynamodb_table = "terraform-table" 
